@@ -37,3 +37,42 @@ The dataset consisted of 255 order transactions of products purchased per day fr
   7. To resolve this issue I used the =Round() formula to return the number without its decimal points, ultimately creating the accurate revenue number
 
 This process of data cleaning improved the quality of my analysis by clearing outliers within the dataset, allowing me to create an accurate representation of revenue generated per order transaction. This ultimatly allows me to visualize the data to view the sales trends for The Urban Palate Group.
+
+<h2>Data Analysis & Visualization:</h2>
+<p align="center">
+IDENTIFYING REVENUE TRENDS AND BOTTLENECKS <br/>
+
+My first step was to map the sum of revenue on a line chart to represent the trend over time. This analysis revealed revenue increased by **24%** over time with the average revenue being $14,181.26.
+
+The two dips in the line chart highlights a potential revenue issue for business: When all products ( Burgers, Chicken Sandwiches, Fries and Sides) are not sold in a day, revenue decreases by **36%** compared to the prior day.
+
+<p align="center">
+  <img width="472" height="603" alt="Revenue Trend Line Chart" src="https://github.com/user-attachments/assets/a690e15d-ed2d-410d-b565-7c4fd0263033" />
+
+ <p align="center">
+REVENUE AND QUANTITY DISCREPANCIES BETWEEN PRODUCTS <br/>
+
+After I discovered the revenue trend at The Urban Palate Group, I dug deeper to see the revenue discrepancies between each product the restaurants offer. 
+
+It came out that the product bringing the most revenue on average were burgers with fries, chicken sandwiches and beverages bringing a similar amount of revenue but not a substantial amount when compared to burgers. However, when it came to quantity, beverages and fries had the highest quantity among all the products. Suggesting that customers prefer their burgers over the other products
+
+<p align="center">
+<img width="519" height="646" alt="Products Bar Chart" src="https://github.com/user-attachments/assets/7bf65562-1743-4798-b670-3459cc53eb7a" />
+
+<p align="center">
+REVENUE DISCREPANIES BETWEEN CITIES <br/>
+
+Using a column chart, I discovered that their restaurant in Lisbon is the company's best performer bringing in 29.79% of the total revenue, with the Paris location not performing well bringing in 10.61% of the total revenue. 
+
+Digging deeper, the reason for this vast discrepancy in revenue between locations is due to the companies best product (burgers) being purchased more at locations such as Lisbon and London compared to Madrid, Berlin, and Paris 
+
+<p align="center">
+<img width="549" height="646" alt="Cities Bar Chart" src="https://github.com/user-attachments/assets/41844951-038c-457c-9590-b30da7379996" />
+
+<h2>Reccomendations</h2>  
+
+Considering The Urban Palate Groups most profitable product is burgers and when they aren’t purchased theirs a massive decrease in revenue across locations. I have listed a couple of recommendations
+
+  1. Develop a new product to add to the menu that will generate more revenue to allow locations that are low on burger purchases to increase their revenue split
+  2. With locations in london and portugal generating the most revenue, the company should potentially look further to expand in these regions compared to their other restaurant locations
+  3. To optimize more purchases of products, restaurant should develop deals and combos that increases the quantity of products purchased
